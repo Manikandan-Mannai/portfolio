@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="title" content="Build a Personal Portfolio Webpage">
+    <meta name="description"
+        content="Responsive Web Design ProjectsTime to put your newly learnt skills to work. By working on these projects, you will get a chance to apply all of the skills, principles, and concepts you have learned so far: HTML, CSS, Visual Design, Accessibility, and more.Complete the five web programming projects below to earn your Responsive Web Design certification.">
+    <meta name="keywords" content="freecodecamp.org,Responsive Web Design Projects,personal porfolio">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Manikandan">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <!-- Google-fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!-- Bootstrap-icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- CSS-stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--===== Question===== -->F
+    <!-- Responsive Web Design
+Responsive Web Design Projects
+Build a Personal Portfolio WebpagePassed
+Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNBOYG.
+
+Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
+
+You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+
+User Story #1: My portfolio should have a welcome section with an id of welcome-section.
+
+User Story #2: The welcome section should have an h1 element that contains text.
+
+User Story #3: My portfolio should have a projects section with an id of projects.
+
+User Story #4: The projects section should contain at least one element with a class of project-tile to hold a project.
+
+User Story #5: The projects section should contain at least one link to a project.
+
+User Story #6: My portfolio should have a navbar with an id of navbar.
+
+User Story #7: The navbar should contain at least one link that I can click on to navigate to different sections of the page.
+
+User Story #8: My portfolio should have a link with an id of profile-link, which opens my GitHub or FCC profile in a new tab.
+
+User Story #9: My portfolio should have at least one media query.
+
+User Story #10: The height of the welcome section should be equal to the height of the viewport.
+
+User Story #11: The navbar should always be at the top of the viewport.
+
+You can build your project by using this CodePen template and clicking Save to create your own pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
+
+Once you're done, submit the URL to your working project with all its tests passing. -->
+
+    <section class="welcome-section">
+
+        <!-- ==========Starting-Navnbar========== -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-red nav-pos">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav me-2">
+                        <li class="nav-item"><a class="custom nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="custom nav-link" href="#projects">Work</a></li>
+                        <li class="nav-item"><a class="custom nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- ==========End-Navnbar========== -->
+
+        <!-- ==========Start-Welcome-Section========== -->
+
+        <div class="container">
+            <div class="heading">
+                <h1>Hey I am Mani</h1>
+                <p>a web developer</p>
+            </div>
+        </div>
+    </section>
+    <!-- ==========End-Welcome-Section========== -->
+
+    <!-- ==========Start-Projects-Section========== -->
+    <section id="projects">
+        <div class="project-tile">
+            <h2>These are some of my projects</h2>
+        </div>
+        <div class="grid">
+            <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank"><img
+                    src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" alt="Tripute Page">
+                <p class="project-title"><span class="code">&#60;</span>Tripute Page<span class="code">/&#62;</span></p>
+            </a>
+
+            <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank"><img
+                    src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png" alt="">
+                <p class="project-title"><span class="code">&#60;</span>Random Code Gentrator<span
+                        class="code">/&#62;</span></p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank"><img
+                    src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" alt="">
+                <p class="project-title"><span class="code">&#60;</span>javaScript Calculator<span
+                        class="code">/&#62;</span></p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank"><img
+                    src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" alt="">
+                <p class="project-title"><span class="code">&#60;</span>Map Data<span class="code">/&#62;</span></p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank"><img
+                    src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png" alt="">
+                <p class="project-title"><span class="code">&#60;</span>Wikipedia Viewer<span class="code">/&#62;</span>
+                </p>
+            </a>
+            <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank"><img
+                    src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png" alt="">
+                <p class="project-title"><span class="code">&#60;</span>Tic Tac Toe Game<span class="code">/&#62;</span>
+                    <i class="bi bi-telephone"></i>
+                </p>
+            </a>
+        </div>
+        <a href="https://github.com/Manikandan-Mannai" target="_blank" class="btn bg-dark text-light btn-lg">Show all
+            &#62;</a>
+    </section>
+    <!-- ==========End-Projects-Section========== -->
+
+    <!-- ==========Start-Contact-Section========== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h1>Let's work together...</h1>
+            <p>How do you take your coffee?</p>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link text-light font " href="http://www.blankwebsite.com/"
+                        target="_blank">Facebook</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light font" href="http://www.blankwebsite.com/" target="_blank">Github</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light font" href="http://www.blankwebsite.com/" target="_blank">Twitter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light font" href="http://www.blankwebsite.com/" target="_blank">Send me
+                        Mail</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light font" href="http://www.blankwebsite.com/" target="_blank"></i>call
+                        Me</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ==========End-Contact-Section========== -->
+
+    <!-- ==========Start-Copyright-Section========== -->
+    <footer>
+        <p>**This is just a fake portfolio. All the projects and contact details given are not real.
+        </p>
+        <p>© Created for freeCodeCamp </p>
+    </footer>
+
+    <!-- ==========Start-Copyright-Section========== -->
+
+    <!-- javaScript-Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
